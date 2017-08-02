@@ -83,4 +83,4 @@ class Regression:
       # y_hat.append(??)
       y_true.append(self.values[idx])
 
-    return (y_hat, y_actual)
+    return (y_hat, y_true)
