@@ -12,33 +12,4 @@ pip install ipython pandas numpy scipy sklearn matplotlib
 
 # To run the experiment
 
-I highly recommend using ipython to do you development with.
-
-In a console you can run
-
-```
-import regression
-```
-
-which will load the Regression class
-
-from there you can run the command
-
-```
-r = Regression()
-r.plot_error_rates()
-```
-
-This won't work on first pass so feel free to also rely on importlib to reload the library
-
-```
-import importlib
-importlib.reload(regression)
-```
-
-So you don't have to leave the console.
-
-Good luck and please ask questions in Slack if you get stuck. This is your time to learn!
-
-
-
+`jupyter notebook` and open up jupyter notebook and go through them there. The lab is in the sole ipynb here
